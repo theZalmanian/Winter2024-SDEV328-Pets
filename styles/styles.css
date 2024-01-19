@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #748885;
+    --secondary-color: #333333;
+}
+
+html, body {
+    background-color: #748885;
+}
+
+#content-container, #title-header {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#title-header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0 0 .25em 0;
+}
+
+a {
+    text-decoration: none;
+    margin-left: .25em;
+}
+
+.icon {
+    width: 4em;
+}
+
+.icon:hover {
+    fill: var(--secondary-color);
+}
+
+#home-image {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+}
